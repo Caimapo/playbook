@@ -1,0 +1,84 @@
+browsers_aur:
+    - google-chrome 73.0.3683.75-1
+    - chromedriver 73.0.3683.68-1
+
+developer_stack:
+    - jq
+    - docker
+    - nodejs
+    - npm
+    - jre8-openjdk-headless jre8-openjdk jdk8-openjdk openjdk8-doc
+    - jre10-openjdk-headless jre10-openjdk jdk10-openjdk openjdk10-doc
+    - maven
+    - clojure
+    - scala
+    - sbt
+
+developer_stack_sudo:
+    - docker-compose
+    - hub
+
+developer_stack_aur:
+    - leiningen
+    - bluemix-cli
+    - kubernetes
+    - kubectl-bin
+
+editors:
+    - vim
+    - atom
+    - emacs
+    - gimp
+
+editors_aur:
+    - intellij-idea-ultimate-edition
+
+media:
+    - peek
+
+media_aur:
+    - spotify
+
+shell_aliases:
+    - alias ll='ls -lrt'
+    - alias vi=vim
+    - alias rgrep='grep -r'
+
+utils:
+    - binutils
+    - gcc
+    - htop
+    - make
+    - mlocate
+    - python-pip
+    - terminator
+    - tree
+    - xclip
+    - xorg-xinput
+    - ntp
+
+utils_aur:
+    - lsdesktopf
+    - python2-pypdf2
+    - stapler
+    - mkpasswd
+    - git-extras
+    - zsh-git-prompt
+
+printers_aur:
+    - brother-mfc-j415w
+    - brother-hl8350cdw
+
+zsh_plugins:
+    - archlinux
+    - colored-man-pages
+    - docker
+    - docker-compose
+    - dotenv
+    - spring
+    - thefuck
+    - git-prompt
+    - git-extras
+
+pip_packages:
+    - thefuck

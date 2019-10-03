@@ -1,0 +1,15 @@
+---
+- name: "Docker - Add {{ user_name }} to docker group"
+  user:
+    name: "{{ user_name }}"
+    groups: docker
+    append: yes
+  become: yes
+
+- name: "Docker - Enable and start the docker daemon"
+  systemd:
+    name: docker
+    enabled: yes
+    state: started
+    masked: no
+  become: yes

@@ -1,0 +1,10 @@
+---
+- name: "Upgrade pip to v18.0"
+  shell: pip install --upgrade pip==18.0
+  become: yes
+
+- name: "Install pip packages"
+  pip:
+    name: '{{ pip_packages }}'
+    state: present
+  become: yes
